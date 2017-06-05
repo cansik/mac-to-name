@@ -68,7 +68,7 @@ int main() {
     printf("Mac To Name!\n");
 
     const char* name = generateName(macAddress);
-    printf("%s", name);
+    printf("%s => %s", macAddress, name);
 
     return 0;
 }
